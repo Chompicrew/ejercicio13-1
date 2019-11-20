@@ -14,7 +14,9 @@
    <plugin name="cordova-plugin-device-motion"/>
    <plugin name="cordova-plugin-camera"/>
    <plugin name="cordova-plugin-media-capture"/>
-   <plugin name="Compass" value="org.apache.cordova.CompassListener" />
+   <feature name="Compass">
+    <param name="android-package" value="org.apache.cordova.CompassListener" />
+</feature>
    <preference name="phonegap-version" value="cli-9.0.0" />
   <feature name="Device">
     <param name="android-package" value="org.apache.cordova.device.Device" />
