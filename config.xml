@@ -14,7 +14,6 @@
    <plugin name="cordova-plugin-device-motion"/>
    <plugin name="cordova-plugin-camera"/>
    <plugin name="cordova-plugin-media-capture"/>
-  <plugin name="cordova-plugin-CompassListener"/>
    <feature name="Compass">
     <param name="android-package" value="org.apache.cordova.CompassListener" />
 </feature>
