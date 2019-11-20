@@ -17,6 +17,8 @@
    <feature name="Compass">
     <param name="android-package" value="org.apache.cordova.CompassListener" />
 </feature>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
    <preference name="phonegap-version" value="cli-9.0.0" />
   <feature name="Device">
     <param name="android-package" value="org.apache.cordova.device.Device" />
